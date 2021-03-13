@@ -3,20 +3,20 @@
 /*---------------------------------- */
 
 header nav a.home-btn, .estate figure .imgout .price, .site-btn, .timeline li:first-child i, nav ul li a:after, .owl-theme .owl-controls .owl-page span, .skill-list .progress .percentage, ul.profile-information li:first-child:before{
-    background: #ffc500 !important;
+    background: 		#D3D3D3 !important;
 }
 
 .chrome-btn
 {
-    background: #ADD8E6 !important; 
+    background: #D3D3D3 !important; 
 }
 
 header nav ul li a:hover, .events ul li .datenlocation span, .namenprice .price, .cbp-filter-item-active, .portfolio-content p span, #blog-post .blog-sidebar ul.category-list li a:hover, #blog-post .blog-sidebar .popular-posts ul li a .info{
-    color: #ffc500 !important;
+    color: #DCDCDC !important;
 }
 
 .spinner:before{
-    border-top-color: #ffb100;  
+    border-top-color: #DCDCDC;  
 }
 
 ul.profile-information li:before{
@@ -26,7 +26,7 @@ ul.profile-information li:before{
 /* Hover Color*/
 
 .site-btn:hover, header nav a.home-btn:hover, .section-title span{
-   background-color: #ffb100 !important;
+   background-color: #A9A9A9 !important;
 }
 
 /* Opacity Color*/
@@ -42,11 +42,11 @@ ul.profile-information li:before{
 }
 
 .timeline li:before, ul.profile-information li:before{
-	border-color: #ffb100 !important;
+	border-color: #A9A9A9 !important;
 }
 
 .tab.active a, #blog-post .post-list ul li a, #blog-post .post-comment ul li .comment-content a{
-	color: #ffb100;
+	color: #A9A9A9;
 }
 
 ul.profile-information li:first-child:after{
