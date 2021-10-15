@@ -820,6 +820,7 @@ ul.timeline{
 footer .footer{
     background: #1e1e1e;
     min-height: 70px;
+    font-family: monospace;
     color: #fff;
     border-radius: 8px;
     -webkit-border-radius: 8px;
