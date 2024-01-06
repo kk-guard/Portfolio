@@ -4,11 +4,11 @@ on:
   push:
     branches: [ "master" ]
 
-permissions:
-  contents: read
-
 jobs:
   deploy:
+    permissions:
+    id-token: write
+    contents: write
     name: Deploy
     runs-on: ubuntu-latest
     environment: production
