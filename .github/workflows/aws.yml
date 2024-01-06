@@ -4,14 +4,12 @@ on: workflow_dispatch
 
 jobs:
   deploy:
-    environment: prod
     permissions:
       id-token: write
       contents: write
     name: Deploy
+    environment: prod
     runs-on: ubuntu-latest
-    environment: production
-
     steps:
     - name: Checkout
       uses: actions/checkout@v3
